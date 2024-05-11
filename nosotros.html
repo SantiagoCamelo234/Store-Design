@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Store</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    
+</head>
+<body>
+    <header class="header"> <!--bloque-->
+        <a href="index.html">
+            <img src="/img/logo.png" alt="logotipo" class="header__logo"> <!--alt -> se usa cuando no carga la imagen--> <!--elemento-->
+        </a>
+    </header>
+    <nav class="navegacion">
+        <a class = "navegacion__enlace" href="index.html">Tienda</a><!--navegacion__enlace--activo = modificador-->
+        <a class = "navegacion__enlace navegacion__enlace--activo" href="nosotros.html">Nosotros</a>
+    </nav>
+    <main class="contenedor">
+        <h1>Nosotros</h1>
+        <div class = "nosotros">
+            <div class = "nosotros__contenido">
+                <p>
+                    Morbi in ligula vel est laoreet accumsan eget sollicitudin mi. Nunc quis ultricies enim. Quisque consectetur porttitor libero. Phasellus non quam sit amet leo consectetur laoreet. Nullam a orci sed nulla gravida lobortis. Vestibulum tristique augue quis dignissim malesuada. Aenean fermentum, est eu rutrum bibendum, augue nisl porta urna, sit amet dignissim ligula lectus et purus. Donec laoreet commodo mattis. Maecenas ut tempor ante. Ut tristique ut libero ut viverra. Fusce imperdiet ullamcorper erat in sagittis. Proin at euismod mauris. Nunc justo dui, hendrerit et sollicitudin quis, mollis in mi.</p>
+
+                    <p>Aenean consectetur, dolor nec blandit cursus, sem metus facilisis felis, vel accumsan mi elit in dolor. Fusce interdum ornare purus, eu venenatis justo rhoncus in. Duis sed nulla a orci aliquam tincidunt eu et sem. Aenean imperdiet sollicitudin risus in interdum. Proin pulvinar et elit vitae bibendum. Aenean tempus fringilla dictum. Fusce eros sem, suscipit at viverra vitae, laoreet nec enim. Fusce feugiat eleifend risus, eget tempus nisl feugiat nec. Mauris ultrices nulla quis ultrices elementum.
+                </p>
+            </div>
+            <div>
+                <img class = "nosotros__imagen" src = "/img/nosotros.jpg" alt = "nosotros">
+            </div>
+        </div>
+    </main>
+    <section class="contenedor comprar">
+        <h2 class = "comprar__titulo">¿Por que comprar con nosotros?</h2>
+        <div class = "bloques">
+            <div class = "bloque">
+                <img class = "bloque__imagen" src="/img/icono_1.png" alt="por que comprar">
+                <h3 class = "bloque__titulo">El mejor precio</h3>
+                <p>Aenean tempus fringilla dictum. Fusce eros sem, suscipit at viverra vitae, laoreet nec enim. Fusce feugiat eleifend risus, eget tempus nisl feugiat nec. Mauris ultrices nulla quis ultrices elementum</p>
+            </div> <!--bloque 1-->
+
+            <div class = "bloque">
+                <img  class = "bloque__imagen" src="/img/icono_2.png" alt="por que comprar">
+                <h3 class = "bloque__titulo">Para Devs</h3>
+                <p>Aenean tempus fringilla dictum. Fusce eros sem, suscipit at viverra vitae, laoreet nec enim. Fusce feugiat eleifend risus, eget tempus nisl feugiat nec. Mauris ultrices nulla quis ultrices elementum</p>
+            </div> <!--bloque 2-->
+
+            <div class = "bloque">
+                <img class = "bloque__imagen" src="/img/icono_3.png" alt="por que comprar">
+                <h3 class = "bloque__titulo">Envio Gratis</h3>
+                <p>Aenean tempus fringilla dictum. Fusce eros sem, suscipit at viverra vitae, laoreet nec enim. Fusce feugiat eleifend risus, eget tempus nisl feugiat nec. Mauris ultrices nulla quis ultrices elementum</p>
+            </div> <!--bloque 3-->
+
+            <div class = "bloque">
+                <img class = "bloque__imagen" src="/img/icono_4.png" alt="por que comprar">
+                <h3 class = "bloque__titulo">La mejor calidad</h3>
+                <p>Aenean tempus fringilla dictum. Fusce eros sem, suscipit at viverra vitae, laoreet nec enim. Fusce feugiat eleifend risus, eget tempus nisl feugiat nec. Mauris ultrices nulla quis ultrices elementum</p>
+            </div> <!--bloque 4-->
+        </div> <!--bloques-->
+    </section>
+    <footer class = "footer">
+        <p class = footer__texto>Frontend store -  Todos los derechos reservados 2024</p>
+    </footer>
+</body>
+</html>
